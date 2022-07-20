@@ -1,9 +1,9 @@
 ---
-​---
+
 layout: post
 title: "[8] Gradient Descent 방법들"
 use_math: true
-​---
+
 ---
 
 ## Gradient Descent 방법들
@@ -15,9 +15,9 @@ use_math: true
 - Batch gradient descent 
   - 한번에 모든 데이터를 다 써서 gradient 업데이트
 
-​			
 
-​			batch: 하나의 그룹에 속해진 데이터의 양
+
+	batch: 하나의 그룹에 속해진 데이터의 양
 
 
 
