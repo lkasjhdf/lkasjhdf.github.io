@@ -2,6 +2,7 @@
 
 layout: post
 title: "[8] Gradient Descent 방법들"
+date: 2022-07-20 12:00:00
 use_math: true
 
 ---
