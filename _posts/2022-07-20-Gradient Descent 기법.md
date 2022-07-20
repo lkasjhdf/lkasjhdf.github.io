@@ -17,7 +17,7 @@ use_math: true
 
 
 
-	batch: 하나의 그룹에 속해진 데이터의 양
+batch: 하나의 그룹에 속해진 데이터의 양
 
 
 
@@ -57,9 +57,12 @@ $$
 $\eta$: Learning rate(너무 크거나 작으면 안된다)
 
 $g_t$: Gradient
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 ## Momentum
 
 $$
@@ -72,9 +75,12 @@ $\beta$: Momentum
 $a_{t+1}$: accumulation
 
 한번 gradient가 흐른 방향대로 정보를 좀 더 이어감
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 ## Nesterov Accelerated Gradient 
 
 $$
@@ -85,9 +91,12 @@ $$
 $\nabla\mathcal{L}\left( W_t-\eta\beta a_t \right)$: Lookahead gradient
 
 a라는 현재 정보가 있으면 그 방향으로 한번 가본 후 거기서 gradient를 계산한 후 accumulation 함
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 ## Adagrad 
 
 $$
@@ -99,9 +108,12 @@ $G_t$: gradient들을 제곱 후 더한 것. $G_t$가 커질수록 학습이 멈
 $\epsilon$: 0으로 안나눠지기 위한 것
 
 많이 변한 파라메터들에 대해서는 적게 변화시키고 적게 변한 파라메터들에 대해서는 많이 변화시키기 위한 것
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 ## Adadelta 
 
 $$
@@ -115,9 +127,12 @@ $G_t$: Exponential Moving Average of gradient squares
 $H_t$: EMA of difference squares
 
 Adagrad에서 $G_t$가 무한히 커졌을 때 생기는 문제를 해결하기 위한 것 
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 ## RMSprop 
 
 $$
@@ -130,9 +145,12 @@ $G_t$: EMA of gradient squares
 $\eta$: stepsize
 
 Geoffrey Hinton교수가 그냥 해봤더니 잘되더라 라고 해서 나온 방법
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 ## Adam
 
 $$
