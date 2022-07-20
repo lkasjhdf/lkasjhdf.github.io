@@ -26,7 +26,8 @@ use_math: true
 - 큰 batch size를 활용하게 되면 Sharp Minimizer에 도달함
 - 작은 batch size를 활용하게 되면 Flat Minimizer에 도달함
 
-![gd-1](C:\Users\서장원\Desktop\gd-1.jpg)
+![gd-1](https://user-images.githubusercontent.com/90087083/179951231-b3d4a8a7-5c9c-4790-852b-a971f1f54bd8.jpg){: width=”50%” height=”50%”}
+
 
 - Flat Minimum: generalization performance 높다
 - Sharp Minimum: generalization performance 낮다
