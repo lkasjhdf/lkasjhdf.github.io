@@ -31,7 +31,7 @@ use_math: true
 
 ## Early stopping 
 
-![1](C:\Users\서장원\Desktop\1.JPG)
+![1](https://user-images.githubusercontent.com/90087083/180112111-bc1951b9-a188-47f8-9436-df6bc817952f.JPG){: width=”50%” height=”50%”}
 
 Loss가 커지기 시작하는 순간부터 멈추기
 
@@ -55,7 +55,7 @@ $\frac{\alpha}{2}\begin{Vmatrix} W\end{Vmatrix}_2^2$: Parameter Norm Penalty
 
 ## Data augmentation 
 
-![2](C:\Users\서장원\Desktop\2.jpg)
+![2](https://user-images.githubusercontent.com/90087083/180112165-4e9ed32a-ec75-4a87-8d1e-6a036757e76d.jpg){: width=”50%” height=”50%”}
 
 데이터의 양이 많을수록 좋다. 
 
@@ -69,7 +69,7 @@ $\frac{\alpha}{2}\begin{Vmatrix} W\end{Vmatrix}_2^2$: Parameter Norm Penalty
 
 ## Noise robustness 
 
-![3](C:\Users\서장원\Desktop\3.png)
+![3](https://user-images.githubusercontent.com/90087083/180112209-3d4e0371-633f-4e37-b397-8ef3cb0f0250.png){: width=”50%” height=”50%”}
 
 입력데이터 및 neural network에도 noise 집어넣기
 
@@ -79,7 +79,7 @@ $\frac{\alpha}{2}\begin{Vmatrix} W\end{Vmatrix}_2^2$: Parameter Norm Penalty
 
 ## Label smoothing 
 
-![4](C:\Users\서장원\Desktop\4.png)
+![4](https://user-images.githubusercontent.com/90087083/180112256-1890a232-3625-4845-9bde-d4e42ee98edd.png){: width=”50%” height=”50%”}
 
 학습 데이터 두개를 뽑아서 섞어주기
 
