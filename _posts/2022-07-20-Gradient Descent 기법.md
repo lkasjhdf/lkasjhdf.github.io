@@ -172,6 +172,12 @@ Adam: Adaptive Moment Estimation.
  gradient의 제곱을 EMA로 가져감과 동시에 momentum을 동시에 활용
 
 
+
+
+
+
+
+
 # Regularization
 
 ## Regularization
