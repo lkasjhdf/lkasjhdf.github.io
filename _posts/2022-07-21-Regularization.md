@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[9] Regularization"
-date: 2022-07-21 10:40:00
+date: 2022-07-21 09:00:00
 use_math: true
 ---
 
