@@ -26,11 +26,10 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataMining" %}
-                        <li><a href="/categories/stl" class="">DataMining ({{category[1].size}})</a></li>
+                        <li><a href="/categories/DataMining" class="">DataMining ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">개발</span>
             <!--채워넣기-->
       </li>
   </ul>
